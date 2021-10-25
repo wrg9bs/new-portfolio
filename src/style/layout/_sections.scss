@@ -1,0 +1,13 @@
+// Section
+section {
+  padding: 5rem 0rem;
+  margin-top: 50px;
+ 
+
+  @include respond(phone) {
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+  }
+}

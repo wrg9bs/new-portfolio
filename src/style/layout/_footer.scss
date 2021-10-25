@@ -1,0 +1,84 @@
+.footer {
+  background-color: $navy-blue;
+  color: $white-color;
+  padding: 4.8rem 0;
+
+  @include respond(phone) {
+    border: 0px;
+  }
+
+  &__text {
+    color: darken(white, 50%);
+    font-size: 1.3rem;
+    margin-top: 2rem;
+
+    a {
+      color: darken(white, 50%);
+      font-size: 1.3rem;
+      transition: all 0.4s;
+      display: inline-block;
+      background-color: $dark-grey;
+      z-index: 5;
+
+      &:hover,
+      &:active {
+        color: $yellow;
+        -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+  span {
+    position: relative;
+    display: block;
+    z-index: 5;
+
+    .back-to-top i {
+      color: $orange;
+      margin: 0.5rem 0 $default-font-size;
+      transition: all 0.2s ease-in;
+      cursor: pointer;
+      z-index: 5 !important;
+      
+      
+    
+      &:hover {
+        transform: translateY(-10px);
+        
+      }
+    }
+  }
+
+}
+.footer-hr {
+  border-top: 0.5px solid $orange;
+  margin: 1rem auto;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $yellow;
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+    margin: $default-font-size $default-font-size;
+    transition: all 0.2s ease-in;
+    z-index: 5;
+
+    &:hover {
+      transform: translateY(-10px);
+    }
+    .fa {
+      color: $yellow;
+    }
+  }
+}
+
+

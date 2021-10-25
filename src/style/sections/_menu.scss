@@ -1,0 +1,50 @@
+.menu {
+    width: 250px;
+    height: 70vh;
+    background-color: $navy-blue;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s ease;
+
+    @include respond(phone) {
+        height: 50vh;
+      }
+
+    &.active {
+        left: 0;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 5rem;
+        font-weight: 500;
+        color: $white-color;
+        width: 60%;
+
+        li {
+            margin-bottom: 20px;
+            a {
+                font-style: inherit;
+                font-size: 2.5rem;
+                color: inherit;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            &:hover {
+                font-weight: 700;
+                color: $yellow;
+                
+            }
+        }
+    }
+
+}
