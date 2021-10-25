@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/new-portfolio",
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: "new-portfolio",
@@ -7,6 +8,7 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-offline",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
