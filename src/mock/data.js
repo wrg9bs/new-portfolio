@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Bo-at | Developer', 
+  title: '[Bo-at] | Developer', 
   lang: 'en', 
-  description: 'Welcome to my website', 
+  description: '[Bo-at] | a full stack software developer based in New Zealand', 
 };
 
 // HERO DATA
@@ -52,8 +52,8 @@ export const projectsData = [
     title: 'Smart-brain-app',
     info: 'This is a full stack application, the front-end built with React, and the backend with Nodejs and Expressjs. Used Postgres SQL database to store users and login information.',
     info2: 'The project files are uploaded to Heroku',
-    url: '',
-    repo: 'https://smart-bee.herokuapp.com/',
+    url: 'https://smart-bee.herokuapp.com/',
+    repo: '',
   },
 ];
 

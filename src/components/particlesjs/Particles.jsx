@@ -1,5 +1,5 @@
 import React from 'react';
-import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
 
 export default () => {
   return (
@@ -12,10 +12,10 @@ export default () => {
           },
           particles: {
             number: {
-              value: 500,
+              value: 50,
               density: {
                 enable: true,
-                value_area: 500,
+                value_area: 50,
               },
             },
             color: {
@@ -48,13 +48,6 @@ export default () => {
                 sync: true,
               },
             },
-            line_linked: {
-              enable: true,
-              distance: 150,
-              color: '#fff',
-              opacity: 0,
-              width: 1,
-            },
             move: {
               enable: true,
               speed: 1,
@@ -70,6 +63,7 @@ export default () => {
               },
             },
           },
+          fpsLimit: 30,
           interactivity: {
             detect_on: 'canvas',
             events: {
