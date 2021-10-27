@@ -14,7 +14,7 @@ export default () => {
         <meta charSet="utf-8" />
         <title>{title}</title>
         <html lang={lang} />
-        <meta name="keywords" content="[wrg9bs], [Bo-at], Software Developer" />
+        <meta name="keywords" content="wrg9bs, Bo-at, Software Developer" />
         <meta name="description" content={description} />
       </Helmet>
       <App />
