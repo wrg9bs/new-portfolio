@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Bo-at | Developer', 
+  title: 'Bo-at -Web Developer', 
   lang: 'en', 
-  description: 'Bo-at | full stack developer in New Zealand', 
+  description: 'Bo-at is a full stack software developer proficient in Javascript, React, Next.js, Node.js, PostgresSQL', 
 };
 
 // HERO DATA

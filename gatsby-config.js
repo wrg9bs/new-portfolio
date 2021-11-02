@@ -2,7 +2,9 @@ module.exports = {
   pathPrefix: "/new-portfolio",
   siteMetadata: {
     siteUrl: "https://www.boatzir.com",
-    title: "new-portfolio",
+    title: "Bo-at Setobele",
+    description: 
+    "Bo-at, full stack software, web developer, Javascript developer, proficient in React, Next.js, Node.js, PostgreSQL"
   },
   plugins: [
     "gatsby-plugin-sass",
