@@ -14,6 +14,7 @@
 
     @include respond(phone) {
         height: 50vh;
+        
       }
 
     &.active {
@@ -29,8 +30,17 @@
         color: $white-color;
         width: 60%;
 
+        @include respond(phone) {
+            font-size: 2.5rem;
+            
+        }
+
         li {
             margin-bottom: 20px;
+
+            @include respond(phone) {
+                margin-bottom: 5px;
+            }
             a {
                 font-style: inherit;
                 font-size: 2rem;
